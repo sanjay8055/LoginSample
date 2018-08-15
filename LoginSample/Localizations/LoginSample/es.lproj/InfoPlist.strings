@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  LoginSample
+
+  Created by Sanjay Raskar on 8/15/18.
+  Copyright © 2018 Sanjay Raskar. All rights reserved.
+*/
+"CFBundleDisplayName" = "ログインサンプル";

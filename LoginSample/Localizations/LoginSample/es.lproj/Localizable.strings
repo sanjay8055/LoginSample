@@ -1,0 +1,15 @@
+/* 
+  LoginSample.strings
+  LoginSample
+
+  Created by Sanjay Raskar on 8/15/18.
+  Copyright © 2018 Sanjay Raskar. All rights reserved.
+*/
+"Login_success_message" = "Inicio de sesión correcto.";
+"Login_failed_message" = "error de inicio de sesion";
+"password_validation_message" = "La contraseña debe tener más de 8 caracteres.";
+"email_validation_message" = "Por favor ingrese una identificación de correo electrónico válida.";
+"ok_label" = "De acuerdo";
+"password_label" = "contraseña";
+"Passwoed_label" = "Contraseña";
+"email_label" = "Email";

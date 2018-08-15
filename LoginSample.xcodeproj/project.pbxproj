@@ -14,6 +14,14 @@
 		0DBD643C2123FA8E004E86E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBD643A2123FA8E004E86E5 /* LaunchScreen.storyboard */; };
 		0DBD64472123FA8F004E86E5 /* LoginSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD64462123FA8F004E86E5 /* LoginSampleTests.swift */; };
 		0DBD64522123FA8F004E86E5 /* LoginSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD64512123FA8F004E86E5 /* LoginSampleUITests.swift */; };
+		0DBD646321240698004E86E5 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD646221240698004E86E5 /* LoginModel.swift */; };
+		0DBD646721240722004E86E5 /* FieldsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD646621240722004E86E5 /* FieldsViewModel.swift */; };
+		0DBD646921240AC0004E86E5 /* EmailandPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD646821240AC0004E86E5 /* EmailandPasswordViewModel.swift */; };
+		0DBD646B21240D55004E86E5 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD646A21240D55004E86E5 /* LogInViewModel.swift */; };
+		0DBD646D21241F00004E86E5 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD646C21241F00004E86E5 /* AlertView.swift */; };
+		0DBD647021243304004E86E5 /* UItextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD646F21243304004E86E5 /* UItextfieldExtension.swift */; };
+		0DBD647821243C36004E86E5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DBD647621243C36004E86E5 /* Localizable.strings */; };
+		0DBD647D21244562004E86E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DBD647B21244562004E86E5 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,19 @@
 		0DBD644D2123FA8F004E86E5 /* LoginSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBD64512123FA8F004E86E5 /* LoginSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSampleUITests.swift; sourceTree = "<group>"; };
 		0DBD64532123FA8F004E86E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBD646221240698004E86E5 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		0DBD646621240722004E86E5 /* FieldsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldsViewModel.swift; sourceTree = "<group>"; };
+		0DBD646821240AC0004E86E5 /* EmailandPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailandPasswordViewModel.swift; sourceTree = "<group>"; };
+		0DBD646A21240D55004E86E5 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		0DBD646C21241F00004E86E5 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		0DBD646F21243304004E86E5 /* UItextfieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItextfieldExtension.swift; sourceTree = "<group>"; };
+		0DBD647121243B3D004E86E5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		0DBD647221243B3D004E86E5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0DBD647721243C36004E86E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = LoginSample/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0DBD647921243C74004E86E5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = LoginSample/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0DBD647A21243CA4004E86E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LoginSample/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0DBD647C21244562004E86E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = LoginSample/Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DBD647E21244570004E86E5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = LoginSample/es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +119,14 @@
 			isa = PBXGroup;
 			children = (
 				0DBD64312123FA8C004E86E5 /* AppDelegate.swift */,
-				0DBD64332123FA8C004E86E5 /* ViewController.swift */,
+				0DBD6464212406CA004E86E5 /* Views */,
+				0DBD6465212406D7004E86E5 /* ViewModels */,
+				0DBD645F2124058B004E86E5 /* Models */,
 				0DBD64352123FA8C004E86E5 /* Main.storyboard */,
 				0DBD64382123FA8E004E86E5 /* Assets.xcassets */,
+				0DBD646E212432D0004E86E5 /* Other */,
 				0DBD643A2123FA8E004E86E5 /* LaunchScreen.storyboard */,
+				0DBD647F21244846004E86E5 /* Localizations */,
 				0DBD643D2123FA8E004E86E5 /* Info.plist */,
 			);
 			path = LoginSample;
@@ -123,6 +148,50 @@
 				0DBD64532123FA8F004E86E5 /* Info.plist */,
 			);
 			path = LoginSampleUITests;
+			sourceTree = "<group>";
+		};
+		0DBD645F2124058B004E86E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DBD646221240698004E86E5 /* LoginModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0DBD6464212406CA004E86E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DBD64332123FA8C004E86E5 /* ViewController.swift */,
+				0DBD646C21241F00004E86E5 /* AlertView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0DBD6465212406D7004E86E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0DBD646621240722004E86E5 /* FieldsViewModel.swift */,
+				0DBD646821240AC0004E86E5 /* EmailandPasswordViewModel.swift */,
+				0DBD646A21240D55004E86E5 /* LogInViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DBD646E212432D0004E86E5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0DBD646F21243304004E86E5 /* UItextfieldExtension.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0DBD647F21244846004E86E5 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				0DBD647B21244562004E86E5 /* InfoPlist.strings */,
+				0DBD647621243C36004E86E5 /* Localizable.strings */,
+			);
+			path = Localizations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +280,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 0DBD64252123FA8C004E86E5;
 			productRefGroup = 0DBD642F2123FA8C004E86E5 /* Products */;
@@ -231,7 +301,9 @@
 			files = (
 				0DBD643C2123FA8E004E86E5 /* LaunchScreen.storyboard in Resources */,
 				0DBD64392123FA8E004E86E5 /* Assets.xcassets in Resources */,
+				0DBD647821243C36004E86E5 /* Localizable.strings in Resources */,
 				0DBD64372123FA8C004E86E5 /* Main.storyboard in Resources */,
+				0DBD647D21244562004E86E5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBD646921240AC0004E86E5 /* EmailandPasswordViewModel.swift in Sources */,
+				0DBD647021243304004E86E5 /* UItextfieldExtension.swift in Sources */,
+				0DBD646D21241F00004E86E5 /* AlertView.swift in Sources */,
 				0DBD64342123FA8C004E86E5 /* ViewController.swift in Sources */,
+				0DBD646B21240D55004E86E5 /* LogInViewModel.swift in Sources */,
+				0DBD646321240698004E86E5 /* LoginModel.swift in Sources */,
 				0DBD64322123FA8C004E86E5 /* AppDelegate.swift in Sources */,
+				0DBD646721240722004E86E5 /* FieldsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +375,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0DBD64362123FA8C004E86E5 /* Base */,
+				0DBD647121243B3D004E86E5 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,8 +384,28 @@
 			isa = PBXVariantGroup;
 			children = (
 				0DBD643B2123FA8E004E86E5 /* Base */,
+				0DBD647221243B3D004E86E5 /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0DBD647621243C36004E86E5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DBD647721243C36004E86E5 /* Base */,
+				0DBD647921243C74004E86E5 /* es */,
+				0DBD647A21243CA4004E86E5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		0DBD647B21244562004E86E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DBD647C21244562004E86E5 /* Base */,
+				0DBD647E21244570004E86E5 /* es */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -363,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -376,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -417,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -432,6 +533,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,6 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

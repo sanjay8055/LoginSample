@@ -1,0 +1,15 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "2FI-Si-Vca"; */
+"2FI-Si-Vca.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Qc7-Ei-9LB"; */
+"Qc7-Ei-9LB.placeholder" = "Contraseña";
+
+/* Class = "UINavigationItem"; title = "Log In"; ObjectID = "nu9-Ls-anN"; */
+"nu9-Ls-anN.title" = "ログイン";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "yQW-4t-SZO"; */
+"yQW-4t-SZO.normalTitle" = "パスワードをお忘れですか？";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "zhD-ed-K4f"; */
+"zhD-ed-K4f.normalTitle" = "ログイン";

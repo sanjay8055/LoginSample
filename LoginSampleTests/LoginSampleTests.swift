@@ -10,27 +10,26 @@ import XCTest
 @testable import LoginSample
 
 class LoginSampleTests: XCTestCase {
-    
+    var viewModel:LogInViewModel?
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        let emailModel = EmailViewModel.init(emailFieldValue: "Test@gmail.com", errorValue: nil)
+        let passwordModel = passwordViewModel.init(passFieldValue: "12345678", errorValue: nil)
+        let model = LoginModel.init(emailText: emailModel.emailFieldValue, passwordText: passwordModel.passFieldValue)
+        viewModel = LogInViewModel.init(model: model, emailModel: emailModel, pwdModel: passwordModel, delegate: nil)
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        viewModel = nil
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testLoginValidations() {
+        XCTAssertTrue((viewModel?.pwdViewModel.passFieldValue.count)! >= 8)
+        XCTAssertTrue((viewModel?.emailViewModel.validate())!)
+        XCTAssertEqual(viewModel?.emailViewModel.emailFieldValue, "Test@gmail.com")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+
     
 }

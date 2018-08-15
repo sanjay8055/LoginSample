@@ -1,0 +1,15 @@
+/* 
+  LoginSample.strings
+  LoginSample
+
+  Created by Sanjay Raskar on 8/15/18.
+  Copyright © 2018 Sanjay Raskar. All rights reserved.
+*/
+"Login_success_message" = "Login Successful.";
+"Login_failed_message" = "Login failed.";
+"password_validation_message" = "Password should be greater than 8 characters.";
+"email_validation_message" = "Please enter valid email Id.";
+"ok_label" = "ok";
+"password_label" = "password";
+"Passwoed_label" = "Password";
+"email_label" = "Email";
